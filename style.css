@@ -1,0 +1,431 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", sans-serif;
+    }
+
+    @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+    /* first page  */
+
+    header {
+        background-image: url(images/banner-bg.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center bottom;
+        width: 100%;
+    }
+
+    .space {
+        height: 0;
+        width: 0;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+    }
+
+    .navbar {
+        border-radius: 40px;
+        padding: 0;
+        position: fixed;
+        height: 70px;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+    }
+
+
+    .navbar-nav .nav-link.active {
+        color: blueviolet;
+    }
+
+
+    .navbar ul li a:hover {
+        color: pink;
+    }
+
+    /* end first page  */
+
+    /* start hero  */
+    .hero {
+        height: 100%;
+    }
+
+    .hero .man {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* end hero  */
+    /* start hero1  */
+    .hero h1 {
+        padding: 0px 240px;
+    }
+
+    .man p {
+        padding: 0px 230px;
+    }
+
+    .btn {
+        width: fit-content;
+        background-color: hotpink;
+    }
+
+
+    .card {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: blueviolet;
+    }
+
+    /* end hero1  */
+
+    /* start hero2  */
+    .hero2 {
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* end hero2  */
+
+    /* start hero3  */
+
+    .hero3 {
+        height: 60vh;
+        background-color: blueviolet;
+        background-image: url(images/work-process-bg.png);
+        background-size: cover;
+        flex-direction: column;
+        text-align: center;
+        justify-content: start;
+        display: flex;
+    }
+
+    .hero3 p {
+        padding: 0px 250px;
+    }
+
+    .number {
+        width: 150px;
+        height: 180px;
+        background-color: white;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin: 0 17px;
+        box-shadow: 12px 10px 2px #fff8f829;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        background-color: white;
+    }
+
+    /* end hero3  */
+
+    /* start hero4  */
+
+    .hero4 {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card2 {
+        width: 280px;
+        height: 300px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 237, 237);
+        border-radius: 20px;
+    }
+
+    .icon2 {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #ccc;
+        margin-left: -50px;
+    }
+
+    .the-end {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    #coloor {
+        color: hotpink;
+    }
+
+    /* end hero4  */
+
+    /* start hero5  */
+
+    .hero5 {
+        height: 100vh;
+        background-color: rgb(226 239 255);
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero5>p {
+        padding: 0 450px;
+    }
+
+    .card3 {
+        margin-top: 30px;
+        width: 280px;
+        height: 380px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+
+    .word {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 15px;
+        padding: 2px;
+    }
+
+    .card3 p {
+        font-size: 11px;
+    }
+
+    .btn2 {
+        background-color: blueviolet;
+        color: white;
+        width: 117px;
+        font-size: 11px;
+    }
+
+    /* end hero5  */
+
+    /* start hero6  */
+    .hero6 {
+        height: 40vh;
+        background-image: url(images/fun-facts-bg.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero6 .row .here {
+        margin: 0 20px;
+    }
+
+    .num {
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 23px;
+    }
+
+    /* end hero6  */
+
+    /* start hero7  */
+
+    .hero7 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero7 .pp {
+        padding: 0 300px;
+    }
+
+    .card4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    /* end hero7  */
+
+    /* start hero8 */
+
+    .hero8 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(241 225 255);
+    }
+
+    .hero8 .ppp {
+        padding: 0 350px;
+    }
+
+    .left {
+        flex-direction: column;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
+
+    .right #inp1,
+    #inp2 {
+        padding: 10px 70px;
+        border-radius: 20px;
+        margin: 10px 20px;
+    }
+
+    .right #inp3 {
+        padding: 80px 260px;
+        border-radius: 30px;
+    }
+
+    .axs {
+        margin: 30px 110px;
+    }
+
+    /* end hero8 */
+
+    /* start hero9  */
+    .hero9 {
+        height: 30vh;
+        background-image: linear-gradient(to right, rgb(225, 105, 255), blueviolet);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* end hero9 */
+
+    /* start media  */
+
+    @media (max-width:767px) {
+        .navbar {
+            width: 92%;
+        }
+
+        .hero h1 {
+            padding: 20px 0px;
+            font-size: 25px;
+        }
+
+        .man p {
+            padding: 20px 0px;
+            font-size: 15px;
+        }
+
+        .btn1 {
+            margin: 20px 0px;
+        }
+
+        .space {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .hero2 img {
+            margin-bottom: 30px;
+        }
+
+        .hero3 {
+            height: 100%;
+        }
+
+        .hero3 p {
+            padding: 0px 0px;
+        }
+
+        .hero4 {
+            height: 100%;
+        }
+
+        .hero4 .row {
+            margin-top: 20px;
+        }
+
+        .hero4 .row .card2 {
+            margin-top: 20px;
+        }
+
+        .hero5 {
+            height: 100%;
+        }
+
+        .hero5>p {
+            padding: 0 0;
+        }
+
+        .hero6 {
+            height: 100%;
+            flex-direction: column;
+        }
+
+        .hero7 {
+            height: 100%;
+        }
+
+        .hero7 .pp {
+            padding: 0 0px;
+        }
+
+        .card4 {
+            margin: 0;
+        }
+
+        .hero8 {
+            height: 100%;
+            padding-top: 20px;
+        }
+
+        .hero8 .ppp {
+            padding: 0 0px;
+        }
+
+        .right #inp3 {
+            padding: 80px 90px;
+            border-radius: 30px;
+        }
+    }
