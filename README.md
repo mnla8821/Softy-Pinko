@@ -25,4 +25,4 @@ A Great Design Show What Can you Do in Html and Css .
 - Bootstrap: For styling the UI.
 
 ## Screenshot 
-![screenshot](src/Assets/swiper.png)
+![screenshot](images/fourth.png)
